@@ -1,7 +1,7 @@
 # ETL-workflow-for-MaxMinDW-data-warehouse
 
-You  are  given  a  business  scenarioof  Maximum  Miniatures  Inc.that  you  need  to understand andthenattempt the following questions:
-a) Design a star schemafor the requirementsmentioned in the scenarioforManufacturing and Salesdata marts.
+You  are  given  a  business  scenario of  Maximum  Miniatures  Inc. that  you  need  to understand and then attempt the following questions:
+a) Design a star schemafor the requirements mentioned in the scenario for Manufacturing and Salesdata marts.
 b) Generate a SQL script for your star schema and run that script to setup your data warehouse MaxMinDW in SQL server.
 c) Build an ETL  workflow  in  SSIS  to  load the  data  from  given  source databases to MaxMinDWdata warehouse.
 
