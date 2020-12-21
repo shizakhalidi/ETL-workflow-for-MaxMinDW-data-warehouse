@@ -31,17 +31,4 @@ The point of sale (POS) system manages the cash registers ateach of the five Max
 The MaxMin.com online store is an ASP.NET application. It uses SQL Server as its backend database. All sales through the online store are paid with a credit card. All customers of the  online  store  must  provide  name,  address,  phone  number,  and  e-mail  address  with each purchase.The online store tracks the shipping of orders. It also handles any products returned by customers.  Finally,  the  online  store  saves  information  on  product  promotions  and discounts that are run on thestore site.
 
 ### Accounting
-The accounting system tracks all the financial transactions for Max Min, Inc. This includes the  purchase  of  raw  materials  for  manufacturing.  The  accounting  system  uses  a  Visual FoxPro database for its backend. 
-
-## Designing the Maximum Miniatures Manufacturing Data Mart
-
-### Business Need 
-The  vice  president  (VP)  of  production  for  Max  Min,  Inc.  wants  to  analyze  the  statistics available  from  the  manufacturing  automation  system.  He  would  like  an  interactive analysis tool, rather than printed reports, for this analysis. In keeping with Max Min's new business intelligence strategy, Microsoft SQL Server 2005 Analysis Services is the platform for  this  analysis  tool.  Because  the manufacturing  automation  system  does  not  use  a database, logging everything to comma-delimited text files instead, a data mart must be designed  and  built  as  a  repository  for  this  information.  The  manufacturing  automation system controls all the machines used by Max Min to create its figurines. Each  machine  handles  all  the  steps  in  the  manufacturing  process  of  a  figurine.  
-This includes the following:
--Filling a mold with the raw material (clay, pewter, or aluminum)
--Aiding the hardening of this material
--Removal from the mold when hardening is complete
--Computerized  painting  of  the  figurine,  if  necessary  (pewter  figurines  are  not painted)
--Curing the paint, if necessary
-
-Multiple painting and curing cycles may be necessary, depending on the intricacy of the paint  job  required  by  a  product.  A  quality  assurance  check  is  done  by  the  machine operator as the figurine is completed. Operators log onto a machine. As part of this logon process, the operator tells the manufacturing automation system what product is being produced, along with the batch number of the raw material being used by that machine. 
+The accounting system tracks all the financial transactions for Max Min, Inc. This includes the  purchase  of  raw  materials  for  manufacturing.  The  accounting  system  uses  a  Visual FoxPro database for its backend.
